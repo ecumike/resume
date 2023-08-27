@@ -1,0 +1,86 @@
+:root {
+	--theme-color: var(--dark-red);
+}
+
+.initials-circle {
+	border-color: var(--theme-color);
+	height: 80px;
+	width: 80px;
+}
+
+.name {
+	color: var(--theme-color);
+}
+
+.location, .email a, .phone {
+	color: var(--near-black);
+}
+svg {
+	color: var(--gray);
+}
+
+.left-col {
+	border-right: 1.5px solid var(--moon-gray);
+	color: var(--theme-color);
+	flex: 0 0 180px;
+	font-size: 1em;
+	line-height: 1.25;
+	padding: 2em 1em 0 0;
+	text-align: right;
+}
+
+.right-col {
+    max-width: 750px;
+	width: 100%;
+}
+
+.section .right-col {
+	line-height: 1.25em;
+	padding-left: 1em;
+	padding-top: 2em;
+}
+
+.section.heading {
+	margin-bottom: 2em;
+}
+
+.section.heading .left-col {
+	border-right-color: transparent;
+	color: var(--textcolor);
+	padding: 0;
+}
+
+.section.heading .right-col {
+	margin-top: 0;
+	padding: 0;
+}
+
+.section.summary .right-col,
+.section.summary .left-col {
+	padding-top: 0em;
+}
+
+.section.experience .right-col {
+	position: relative;
+	top: -3px;
+	padding-top: 2em;
+}
+
+.work-company {
+	border-bottom: 1px solid var(--moon-gray);
+	font-size: 1.25em;
+	font-weight: 500;
+	padding-bottom: .25em;
+}
+
+.work-title {
+	color: var(--theme-color);
+	font-size: 1.25em;
+	font-weight: 500;
+	margin-top: 1.25em;
+}
+
+.work-dates {
+	font-weight: 500;
+	margin-top: 6px;
+}
