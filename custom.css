@@ -12,13 +12,6 @@
 	color: var(--theme-color);
 }
 
-.location, .email a, .phone {
-	color: var(--near-black);
-}
-svg {
-	color: var(--gray);
-}
-
 .left-col {
 	border-right: 1.5px solid var(--moon-gray);
 	color: var(--theme-color);
