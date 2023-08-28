@@ -22,7 +22,7 @@ svg {
 .left-col {
 	border-right: 1.5px solid var(--moon-gray);
 	color: var(--theme-color);
-	flex: 0 0 180px;
+	flex: 0 0 190px;
 	font-size: 1em;
 	line-height: 1.25;
 	padding: 2em 1em 0 0;
@@ -58,6 +58,11 @@ svg {
 .section.summary .right-col,
 .section.summary .left-col {
 	padding-top: 0em;
+}
+
+.section.summary .right-col,
+.section.skills .right-col {
+	line-height: 1.5em;
 }
 
 .section.experience .right-col {
