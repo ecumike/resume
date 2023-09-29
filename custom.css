@@ -1,6 +1,9 @@
 :root {
 	--theme-color: var(--dark-red);
 }
+.page-break {
+	page-break-before: always;	
+}
 
 .initials-circle {
 	border-color: var(--theme-color);
